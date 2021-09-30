@@ -1,0 +1,18 @@
+### Discussion
+
+Experiment 1 found evidence for the effect of project alignment on laypeople’s
+decision-making in capital allocation scenarios. Specifically, when projects
+were comparable, participants used NPV when they were told that it was reliable, but
+did not when they were told that it was unreliable. However, they used NPV
+regardless of its reliability when it was the only shared dimension across products.
+
+Experiment 1 manipulated *verbal* NPV reliability. That is, participants were
+explicitly told whether NPV was considered to be a reliable metric or not.
+However, in the real-world the reliability of a metric is more commonly
+expressed in numerical form, such as a range around an estimate. Experiment 2
+attempted to replicate the alignment effects, while manipulating the *numerical*
+NPV reliability associated with each project, rather than the verbal reliability
+as used in Experiment 1. Further, people with sufficient experience with
+financial theory and analysis may be able to successfully draw inferences from
+such information. Therefore, Experiment 2 used a sample of students enrolled in
+a Master of Management degree, instead of the laypeople used in Experiment 1.

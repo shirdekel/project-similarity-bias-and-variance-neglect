@@ -1,0 +1,91 @@
+### Method {#method-alignment-2}
+
+#### Participants
+
+`r descriptives_3$apa` Both the reliability level (low and high) and
+project alignment (low and high) conditions were presented to subjects, and the
+order of presentation was counterbalanced.
+
+#### Materials
+
+##### Instructions
+
+Participants were shown similar instructions to those used in Experiment 1 (see
+Section \@ref(instructions-materials-alignment-2)). However, they were given
+more NPV information (including discount rate and initial investment).
+Appendix \@ref(instructions-materials-alignment-3-appendix) shows the full
+instructions.
+
+##### NPV Test
+
+Participants were asked to complete a short, simple test to check their
+understanding of NPV (see Appendix \@ref(npv-test-materials-alignment-3)).
+
+##### Project Display
+
+As shown in Figures \@ref(fig:projects-alignment-low-materials-alignment-3)
+and \@ref(fig:projects-alignment-high-materials-alignment-3), projects were
+displayed as they were in Experiment 1. However, a second set of projects with
+different product types and descriptions was added to enable within-subjects
+manipulation. Along with the single numerical NPV, participants were provided
+with the forecasted cash flow ranges used to calculate the NPV. In the low NPV
+reliability condition, ranges were $\pm85$% around the mean (e.g., $150--$1,850
+if forecast mean was $1,000); while in the high NPV reliability condition,
+ranges were $\pm5$% around the mean (e.g., $950--$1,050 if the forecast mean was
+$1,000). A wide range indicated that the measure had low reliability, while a
+narrow range indicated that the measure had high reliability. Participants were
+told to treat each set of projects independently.
+
+(ref:projects-alignment-low-materials-alignment-3) An example of a low alignment, low reliability display in Experiment 2.
+
+```{r projects-alignment-low-materials-alignment-3, fig.cap = "(ref:projects-alignment-low-materials-alignment-3)"}
+file.path(
+  materials_3,
+  "alignment_low_reliability_low.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_contrast() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+(ref:projects-alignment-high-materials-alignment-3) An example of a high alignment, high reliability display in Experiment 2.
+
+```{r projects-alignment-high-materials-alignment-3, fig.cap = "(ref:projects-alignment-high-materials-alignment-3)"}
+file.path(
+  materials_3,
+  "alignment_high_reliability_high.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_contrast()
+```
+
+##### NPV Knowledge Ratings
+
+Participants were asked to rate their confidence in knowledge of NPV at multiple
+points in the experiment. Appendix \@ref(npv-knowledge-materials-alignment-3)
+shows an example of this display.
+
+##### Variance Lecture
+
+Participants were given a short lecture on the importance of paying attention to
+variance information in an attempt to increase their use of numerical
+reliability information in their allocations (see
+Appendix \@ref(variance-lecture-materials-alignment-3) for more details and the
+lecture slides).
+
+#### Procedure {#procedure-alignment-3}
+
+Participants were provided with the instructions and an explanation of NPV
+before completing a simple test to demonstrate their understanding of NPV. They
+then completed four counterbalanced capital allocation trials (one for each
+condition combination) before viewing a brief presentation on the importance of
+paying attention to variance in financial decision-making. Participants then
+repeated two of the trials that they had completed earlier. They were shown the
+allocation values they had provided earlier and were given the opportunity to
+change them. Participants rated their knowledge of NPV before and after
+completing the NPV test and then rated it again after completing the four
+project displays. They were then asked to rate their knowledge of NPV before and
+after the variance presentation.

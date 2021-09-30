@@ -1,0 +1,46 @@
+## Experiment 2 {#alignment-3}
+
+```{r setup-alignment-3}
+tar_load(descriptives_3)
+tar_load(materials_3)
+tar_load(results_3)
+tar_load(plot_3)
+```
+
+Experiment 2 investigated the effects of project alignment and
+numerically-expressed NPV reliability information on capital allocation
+decisions. In Experiment 1, the information about NPV reliability level was
+communicated explicitly (e.g., "NPV is unreliable"). However, in Experiment 2,
+only the actual NPV information itself was communicated without the conclusion
+about its reliability. Specifically, participants were given a range of
+predicted values (akin to a confidence interval). Therefore, while Experiment 1
+manipulated *verbal* NPV reliability, Experiment 2 manipulated *numerical* NPV
+reliability. Further, Experiment 2 included participants with more business
+experience. This experiment tested whether the previous findings of an alignment
+effect would be replicated using participants with more business experience. The
+experiment also tested whether this population is sensitive to variance in
+forecasts.
+
+Hypothesis \@ref(hyp:allocation-alignment-alignment-2) was again tested to
+investigate the alignment effect in the new sample. However, the other
+hypotheses tested in Experiment 1 were not retested because Experiment 2
+manipulated numerical reliability and did not include a no NPV condition.
+Research has shown that people are poor at reasoning with numerical variance
+information [@galesic2010; @konold1993; @vivalt2021; @batteux2020]. Therefore,
+Experiment 2 tested the following hypothesis:
+
+```{hypothesis, allocation-npv-reliability-alignment-3, name = "no effect of numerical reliability", echo = TRUE}
+The NPV $\times$ reliability level interaction is not significant in either
+alignment condition.
+```
+
+Experiment 2 also investigated the ability to quickly change participants'
+understanding, if they did not initially use numerical NPV reliability in their
+allocations. Therefore, participants were presented with a short lecture on the
+importance of paying attention to variance in financial decision-making.
+However, this lecture was not sufficient to inform participants' use of
+numerical reliability (see Appendix \@ref(alignment-3-appendix)). Further,
+Experiment 2 investigated whether participants would be over-confident in their
+understanding of NPV [as in @long2018]. These results are also reported in
+Appendix \@ref(alignment-3-appendix) because they are not highly relevant to
+this chapter.

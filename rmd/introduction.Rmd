@@ -1,0 +1,130 @@
+# Project Similarity Bias and Variance Neglect in Forecast Metric Evaluation
+
+## Introduction
+
+One of the most important tasks faced by executives is the allocation of capital
+within their companies. This requires the ranking of projects by importance and
+predicted success, and allocating the limited capital accordingly (not unlike a
+scientific funding agency). Ranking of projects necessitates comparing them
+across a number of dimensions. For example, the executive of an oil company may
+have received multiple oil exploration proposals. Determining what makes one oil
+exploration project better than another is relatively simple. However, consider
+a different scenario in which the executive must allocate capital between an oil
+exploration project and an oil refinery project. The dimensions of oil refinery
+projects that distinguish superior from inferior projects may be totally
+different from those of oil exploration projects. Consider a funding agency
+having to decide between two cognitive scientists or between a cognitive
+scientist and a physicist in awarding a fellowship. What makes a physics
+proposal better for the field of physics than a cognitive science proposal for
+cognitive science?
+
+Structure-mapping theory [@gentner1997; @gentner1983] provides a model of
+comparison that psychologically distinguishes these two kinds of allocation
+tasks. This framework models comparison as a process of mapping and alignment of
+the shared dimensions of two conceptual structures. This mapping process reveals
+the shared dimensions of the two structures as well as the differences in those
+shared dimensions (known as *alignable differences*). For example, when
+comparing two oil exploration projects, the process for measuring the quantity
+of hydrocarbons in a prospective oil field may be identical, but the specific
+quantities measured will differ. This is known as an alignable difference; that
+is, the difference constrained within the same dimension. However, when
+comparing an oil field and a refinery, there will be a significantly higher
+number of *non-alignable differences*, because the two domains do not share
+component dimensions. That is, the dimensional structure of processes in the
+exploration project will be substantially different from that of processes in
+the refinery project, making it difficult to find meaningful alignments. With a
+higher number of non-alignable differences, there are fewer opportunities to
+make meaningful comparisons, leading to greater difficulty in predicting project
+success and ranking projects. This chapter experimentally examined project
+comparisons and how such comparisons may affect capital allocation decisions.
+The working hypothesis is that projects that have a higher number of alignable
+differences will lead to more precise and informed project predictions and
+rankings compared with projects with non-alignable differences.
+
+However, what happens when a task demands that two domains be aligned but they
+are too disparate to align? Experimentally, this territory is somewhat
+uncharted. It is expected that, when required, people will grasp at any piece of
+information available and attempt to abstract and infer that which is reasonable
+to ease the alignment. This occurs frequently in business settings. Because
+corporate enterprises continue to embrace diversification strategies in their
+investments, they must constantly make capital allocation decisions involving
+highly disparate domains. To overcome these difficult comparisons, executives
+rely on various financial measures that, in theory, may be applied to any
+project or business proposal. These financial measures work well to ease the
+burden of difficult comparisons because they ignore the complexities of
+individual projects and focus solely on financial information such as total cost
+and projected profits. Therefore, projects that are difficult to compare may be
+evaluated more easily by comparing individual numerical measures.
+
+The most common financial measure that is used by executives in order to value
+business project proposals is NPV [@graham2001; @remer1993; @graham2015]. NPV is
+the difference between the forecasted revenue of a project and the initial
+investment in its development (accounting for the time value of money), as shown
+in Equation \@ref(eq:npv):
+
+\begin{equation}
+\text{NPV}=\sum_{t=0}^n \frac{R_t}{(1+i)^t}, (\#eq:npv)
+\end{equation}
+
+where $t$ is the time of the cash flow, $i$ is the discount rate, $R_t$ is the
+net cash flow, and $n$ is the total number of periods. NPV is commonly used in
+decisions about capital allocation and investment. The basic rule is that if a
+project has a positive NPV, it is financially viable, and if it has a negative
+NPV, it is not. However, the use of NPV has been criticised, by both academics
+and practitioners [@fox2008; @willigers2017]. The main criticism is that there
+can be underlying sources of variance in NPV that are not reflected in the final
+measure, which is expressed as a single numerical value. For instance, NPV is
+dependent on the projected cash inflows for each year of the project. However,
+financial forecasting is frequently inaccurate and prone to optimism bias
+[@lovallo2003; @puri2007]. Therefore, there is bound to be variation in the
+reliability of NPV measures as a function of the forecasting error in the cash
+flow calculations. Project duration and the discount rate are further sources of
+variance that may be hidden by the single numerical value of NPV.
+
+The secondary goal of this research is to investigate the extent to which people
+are sensitive to variance information (from financial forecasting) when making
+capital allocation decisions. This consideration is especially important in the
+capital allocation situations illustrated above, when executives need to compare
+projects with disparate domains and must, therefore, rely on NPV. This matters
+because the NPV of different domains may have different underlying forecasting
+error, potentially compromising the utility of using NPV as the basis of
+comparison. Do executives sufficiently account for the inherent sources of
+variance in the measure on which they rely so heavily? Research shows that
+people are effective at extracting variance information when exposed to
+numerical sequences [@rosenbaum2020]. However, they struggle to use variance
+information when it is represented numerically [@galesic2010; @konold1993;
+@vivalt2021; @batteux2020].
+
+### Experiment Summary
+
+Experiment 1 investigated the effect of project alignment on the decision-making
+of naive participants asked to allocate capital to a set of fictional projects.
+Naive participants were assumed to have no requisite knowledge about NPV
+reliability; thus, NPV reliability level was manipulated by directly telling
+participants whether or not the given NPV was reliable. For this experiment, it
+was predicted that when projects are alignable, participants who are told NPV is
+reliable would use it in their decision-making, while participants who are told
+that NPV was unreliable would not use it in their decision-making. However, when
+projects are not alignable, it was predicted that participants would use NPV,
+regardless of the stated NPV reliability level.
+
+Experiment 2 investigated the decision-making of management students in a
+similar situation to Experiment 1. The main difference was that instead of
+telling participants whether or not the NPV was reliable, the level of
+*numerical* NPV reliability---that is, the width of the numerical range around
+the average NPV---was manipulated. Similar to Experiment 1, it was predicted
+that participants would rely more on NPV in non-alignable projects than in
+alignable projects. However, it was predicted that numerical reliability level
+would have no effect because there is little evidence that people are sensitive
+to variance information when it is shown numerically.
+
+Experiment 3 also tested the effects of project alignment and reliability level
+in a non-business population but manipulated both verbal and numerical
+reliability to enable a direct comparison. The term *reliability level* is used
+to describe the manipulation of whether NPV was expressed as a reliable measure
+or not, while *reliability type* is used to describe the manipulation of whether
+reliability was expressed verbally or numerically. Experiment 3 predicted a
+reliability level effect for the verbal reliability condition but not the
+numerical reliability condition. Further, this experiment used project
+descriptions with clearer profitability indicators and added a larger selection
+of business industries.

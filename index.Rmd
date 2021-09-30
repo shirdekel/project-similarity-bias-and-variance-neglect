@@ -1,0 +1,92 @@
+---
+title             : "Project Similarity Bias and Variance Neglect in Forecast Metric Evaluation"
+shorttitle        : "Project Similarity Bias and Variance Neglect"
+
+author: 
+  - name          : "Shir Dekel"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : "Brennan MacCallum Building (A18) Camperdown, NSW 2006, Australia"
+    email         : "shir.dekel@sydney.edu.au"
+  - name          : "Micah Goldwater"
+    address       : "Brennan MacCallum Building (A18) Camperdown, NSW 2006, Australia"
+    email         : "micah.goldwater@sydney.edu.au"
+    affiliation   : "1"
+  - name          : "Dan Lovallo"
+    address       : "Abercrombie Building (H70) Camperdown, NSW 2006, Australia"
+    email         : "dan.lovallo@sydney.edu.au"
+    affiliation   : "2"
+  - name          : "Bruce Burns"
+    address       : "Griffith Taylor (A19) Camperdown, NSW 2006, Australia"
+    email         : "bruce.burns@sydney.edu.au"
+    affiliation   : "1"
+
+affiliation:
+  - id            : "1"
+    institution   : "The University of Sydney, School of Psychology"
+  - id            : "2"
+    institution   : "The University of Sydney, Business School"
+
+authornote: |
+  Shir Dekel https://orcid.org/0000-0003-1773-2446.  
+
+  Portions of this work comprised Shir Dekel’s doctoral dissertation.
+
+abstract: (ref:abstract)
+  
+keywords          : "structural alignment, similarity, variance neglect, Net Present Value, capital allocation"
+wordcount         : "7011"
+
+bibliography      : '`r here::here("references.bib")`'
+
+floatsintext      : yes
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+linenumbers       : no
+mask              : no
+draft             : no
+
+linkcolor         : "Blue"
+link-citations    : yes
+
+header-includes:
+  # %% Avoid extra spacing due to figures
+  - \raggedbottom
+
+csl               : '`r here::here("apa.csl")`'
+documentclass     : "apa7"
+classoption       : "man, donotrepeattitle"
+output            : papaja::apa6_pdf
+---
+
+```{r setup, include = FALSE}
+opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  out.width = "100%"
+)
+```
+
+(ref:abstract) Business executives often have to allocate resources across very
+dissimilar projects. They use financial measures, such as Net Present Value
+(NPV) that simplify this difficult comparison because they aim to be equally
+applicable to any kind of project, but these measures vary in their reliability.
+Psychological research suggests that comparing alignable objects will be easier
+than comparing non-alignable objects [@markman1993; @markman1995]. However, it
+is unclear how alignment might moderate people's use of financial measure such
+as NPV. We found that laypeople accommodate their use of a financial measure
+(NPV) based on its reliability (as explicitly described in the introduction to
+the task) when allocating resources to a set of alignable projects, but use it
+regardless of reliability when allocating to a set of non-alignable projects.
+However, when NPV reliability information was presented numerically using
+ranges, participants' allocation did not depend on the ranges---participants
+used NPV even when they had an opportunity to use the intrinsic features of the
+project. Overall, however, participants relied on NPV more when projects were
+low in alignment than when they were high in alignment. The result with
+numerical reliability was replicated with Masters of Management students. Our
+results demonstrate that considering dissimilar choices may hinder people's
+ability to evaluate their importance, and that people might not be using useful
+variance information in their decisions.
+

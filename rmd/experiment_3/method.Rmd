@@ -1,0 +1,80 @@
+### Method
+
+#### Participants
+
+`r descriptives_8$apa` Table \@ref(tab:condition-allocation-alignment-8)
+shows the allocation of participants to the different conditions. The two
+reliability level conditions (low and high) were presented within subjects and
+the order of their presentation was randomised. Similar to the previous
+experiments, NPV varied within subjects. Therefore, each participant saw two
+separate project displays. Appendix \@ref(power-analysis-alignment-8) describes
+the power analysis conducted to arrive at the sample size.
+
+```{r condition-allocation-alignment-8}
+descriptives_8$condition_allocation_table %>%
+  apa_table("Experiment 3 group allocation.")
+```
+
+#### Materials
+
+##### Instructions
+
+Participants were given instructions similar to those in the previous
+experiments, with an added explanation about the NPV reliability information for
+each reliability type (see
+Appendix \@ref(instructions-materials-alignment-8-appendix)). Further, they
+completed a test of basic NPV understanding. Further, they completed a test on
+basic NPV understanding, which also functioned as an attention check.
+
+##### Project Display
+
+The project displays were similar to those used in the previous experiments.
+However, participants were given the same presentation style for both alignment
+conditions. Each display had a table describing the projects in the set,
+including ranking and allocation inputs. Project details were presented as
+bullet points within the relevant cells of the table.
+Figure \@ref(fig:projects-alignment-low-reliability-explicit-low-materials-alignment-8)
+shows an example of a low alignment, low verbal reliability display; and
+Figure \@ref(fig:projects-alignment-high-reliability-implicit-high-materials-alignment-8)
+shows an example of a high alignment, high numerical reliability display.
+
+(ref:projects-alignment-low-reliability-explicit-low-materials-alignment-8) An example of a low alignment, low verbal reliability display in Experiment 3.
+
+```{r projects-alignment-low-reliability-explicit-low-materials-alignment-8, fig.cap = "(ref:projects-alignment-low-reliability-explicit-low-materials-alignment-8)"}
+file.path(
+  materials_8,
+  "project_allocation_alignment_low_reliability_type_explicit_reliability_amount_low_variation_1.png"
+) %>%
+  image_read() %>%
+  image_trim()
+```
+
+(ref:projects-alignment-high-reliability-implicit-high-materials-alignment-8) An example of a high alignment, high numerical reliability display in Experiment 3.
+
+```{r projects-alignment-high-reliability-implicit-high-materials-alignment-8, fig.cap = "(ref:projects-alignment-high-reliability-implicit-high-materials-alignment-8)"}
+file.path(
+  materials_8,
+  "project_allocation_alignment_high_reliability_type_implicit_reliability_amount_high_variation_1.png"
+) %>%
+  image_read() %>%
+  image_trim()
+```
+
+Three elements were counterbalanced: (a) the association between reliability
+level and project set (two variations), (b) the association between business
+name and NPV (five latin square variations), and (c) project variation (five
+variations per alignment condition). When counterbalancing for the high
+alignment group, projects varied by project type (e.g., whether the five
+projects all described oil wells or microchips). When counterbalancing for the
+low alignment group, projects varied by their intrinsic features (e.g., whether
+the oil well project in the set indicated a probability of finding oil of 96% or
+90%). Table column order and project display order were both randomised.
+
+##### Interstitial Page
+
+Prior to each project being displayed, participants were shown an interstitial
+page, which was used to (a) introduce the next display, and (b) check the
+participant's attention (given that no input was required, participants could
+easily skip the page without reading the text). See
+Appendix \@ref(interstitial-materials-alignment-8) for an example.
+

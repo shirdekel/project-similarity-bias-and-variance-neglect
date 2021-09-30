@@ -1,0 +1,42 @@
+## Experiment 3 {#alignment-8}
+
+```{r setup-alignment-8}
+tar_load(descriptives_8)
+tar_load(materials_8)
+tar_load(results_8)
+tar_load(plot_8)
+```
+
+Experiment 3 investigated the effects of project alignment, NPV, NPV reliability
+type and NPV reliability level on participants' budget allocations. Experiment 1
+manipulated NPV reliability level using verbal prompts. That is, participants
+were explicitly told whether or not NPV was reliable for a certain project.
+Experiment 2 investigated whether people were able to extract the same
+reliability information using numerical prompts. That is, participants were
+provided with NPVs with either wide or narrow ranges, indicating either low or
+high reliability, respectively. Moreover, given that laypeople were sampled for
+Experiment 1, and Master of Management students were sampled for Experiment 2,
+it was not possible to compare the two reliability types (verbal and numerical)
+without ruling out the potential confounding effect of population type. Thus,
+similar to Experiments 1 and 2, Experiment 3 manipulated project alignment, NPV
+and NPV reliability level but also added reliability type. Further, presentation
+style was a possible confounding factor in the previous experiments. That is,
+projects in the high alignment condition were always displayed in a table, while
+projects in the low alignment condition were always displayed as paragraphs.
+This possible confounder was excluded in Experiment 3 by using the same
+presentation style for both alignment conditions.
+
+In Experiment 3, the expected results for the verbal reliability condition
+replicated those of Experiment 1. The numerical reliability condition may
+replicate the findings of Experiment 2. However, a pilot experiment (detailed in
+Appendix \@ref(alignment-7)) found no significant differences between numerical
+reliability conditions. Appendix \@ref(alignment-8-appendix) shows a simulation
+of the hypothesised effects, with the numerical reliability effects based on the
+findings of the pilot experiment. Therefore, Experiment 3 retested
+Hypotheses \@ref(hyp:three-way-alignment-2), \@ref(hyp:allocation-alignment-alignment-2), \@ref(hyp:allocation-alignment-reliability-npv-alignment-2), \@ref(hyp:allocation-alignment-high-alignment-2),
+and \@ref(hyp:allocation-alignment-low-alignment-2) for the verbal reliability
+condition, but was agnostic between whether the numerical reliability condition
+will look more like the pattern found in the pilot experiment or the pattern
+found in Experiment 2.
+
+
