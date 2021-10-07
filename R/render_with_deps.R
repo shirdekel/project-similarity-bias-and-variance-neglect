@@ -14,7 +14,7 @@ render_with_deps <- function(input,
     output_format = "all"
   )
 
-  file.remove(list.files(pattern = "*\\.(log|mtc\\d*|maf|aux|bcf|lof|lot|out|toc)$"))
+file.remove(list.files(c(".", "paper"), pattern = "*\\.(log|mtc\\d*|maf|aux|bcf|lof|lot|out|toc|fdb_latexmk|fls|gz)$", full.names = TRUE))
 
   "paper"
 }
