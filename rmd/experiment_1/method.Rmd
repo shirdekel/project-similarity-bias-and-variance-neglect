@@ -106,8 +106,7 @@ file.path(
 
 Other measures apart from allocation were included. The stimuli for and analyses
 of these measures are reported in
-Appendices \@ref(materials-alignment-2-appendix)
-and \@ref(results-alignment-2-appendix), respectively. Specifically,
+Appendix \@ref(alignment-2-appendix). Specifically,
 participants were asked to forecast the future returns of the projects (see
 Figure \@ref(fig:forecasting-materials-alignment-2)), rank the projects (see
 Figure \@ref(fig:ranking-materials-alignment-2)), indicate their confidence in

@@ -17,13 +17,12 @@ shown by the positive NPV trend in both reliability level conditions.
 Further, Experiment 3 replicated the finding of Experiment 2 for the numerical
 reliability condition. Specifically, participants relied more on NPV when
 projects were dissimilar but, critically, did not use numerical range
-information to influence their allocations. A pilot study (documented in
-Appendix \@ref(alignment-7)) replicated the results of Experiment 1 in the
-verbal reliability condition, but did not replicate the results of Experiment 2
-in the numerical reliability condition. That is, when faced with numerical
-ranges as the NPV reliability information, participants did not even use the
-midpoint in their decisions. The results of Experiment 3 suggest that the
-finding in the pilot experiment may have been spurious or due to an unexplored
-component of the experimental design, but this can only be deteremined with
-future research.
+information to influence their allocations. A pilot study [@dekel2021b,
+Appendix B.8] replicated the results of Experiment 1 in the verbal reliability
+condition, but did not replicate the results of Experiment 2 in the numerical
+reliability condition. That is, when faced with numerical ranges as the NPV
+reliability information, participants did not even use the midpoint in their
+decisions. The results of Experiment 3 suggest that the finding in the pilot
+experiment may have been spurious or due to an unexplored component of the
+experimental design, but this can only be deteremined with future research.
 

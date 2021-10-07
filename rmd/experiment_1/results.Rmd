@@ -44,6 +44,5 @@ the allocation findings (see Appendix \@ref(results-alignment-2-appendix)). The
 results also show that the forecasts of those in the low alignment condition had
 higher standard deviations than those in the high alignment condition (see
 Appendix \@ref(forecast-sd-alignment-2)). However, this was not replicated in
-subsequent experiments (see Appendices \@ref(forecast-sd-alignment-4)
-and \@ref(forecast-sd-alignment-5)).
+follow-up experiments [@dekel2021b, Appendix B.5; @dekel2021b, Appendix B.6].
 

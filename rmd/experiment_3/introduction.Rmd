@@ -28,8 +28,8 @@ presentation style for both alignment conditions.
 
 In Experiment 3, the expected results for the verbal reliability condition
 replicated those of Experiment 1. The numerical reliability condition may
-replicate the findings of Experiment 2. However, a pilot experiment (detailed in
-Appendix \@ref(alignment-7)) found no significant differences between numerical
+replicate the findings of Experiment 2. However, a pilot experiment
+[@dekel2021b, Appendix B.8] found no significant differences between numerical
 reliability conditions. Appendix \@ref(alignment-8-appendix) shows a simulation
 of the hypothesised effects, with the numerical reliability effects based on the
 findings of the pilot experiment. Therefore, Experiment 3 retested
