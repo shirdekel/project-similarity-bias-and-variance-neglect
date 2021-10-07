@@ -1,0 +1,230 @@
+# Experiment 2 {#alignment-3-appendix}
+
+## Instructions {#instructions-materials-alignment-3-appendix}
+
+Figure \@ref(fig:instructions-materials-alignment-3) shows the instructions.
+
+(ref:instructions-materials-alignment-3) Experiment 2 instructions.
+
+```{r instructions-materials-alignment-3, fig.cap = "(ref:instructions-materials-alignment-3)"}
+file.path(
+  materials_3,
+  "instructions.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_contrast() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+## NPV Test {#npv-test-materials-alignment-3}
+
+Participants were given more extensive information about NPV than in the
+previous experiment and were tested on their ability to calculate simple
+averages from given numerical ranges, as shown in
+Figures \@ref(fig:npv-test-1-materials-alignment-3)
+and \@ref(fig:npv-test-2-materials-alignment-3).
+
+(ref:npv-test-1-materials-alignment-3) Experiment 2 NPV test.
+
+```{r npv-test-1-materials-alignment-3, fig.cap = "(ref:npv-test-1-materials-alignment-3)", out.width = "90%"}
+npv_test_1 <- file.path(
+  materials_3,
+  "npv_test_1.png"
+) %>%
+  image_read()
+
+npv_test_2 <- file.path(
+  materials_3,
+  "npv_test_2.png"
+) %>%
+  image_read()
+
+c(
+  npv_test_1,
+  npv_test_2
+) %>%
+  image_trim() %>%
+  image_append(stack = TRUE) %>%
+  image_contrast() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+(ref:npv-test-2-materials-alignment-3) Experiment 2 NPV test answers.
+
+```{r npv-test-2-materials-alignment-3, fig.cap = "(ref:npv-test-2-materials-alignment-3)", out.width = "60%"}
+file.path(
+  materials_3,
+  "npv_test_3.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_contrast() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+## NPV Knowledge Ratings {#npv-knowledge-materials-alignment-3}
+
+A similar design to @long2018 [Study 1] was used to test whether this sample may
+be overconfident in their understanding on NPV. Therefore, participants were
+asked to rate their knowledge of NPV in various points in the study (see the
+procedure in Section \@ref(procedure-alignment-3)).
+Figure \@ref(fig:npv-knowledge-materials-alignment-3) shows an example of one
+such display.
+
+(ref:npv-knowledge-materials-alignment-3) Experiment 2 NPV knowledge rating task.
+
+```{r npv-knowledge-materials-alignment-3, fig.cap = "(ref:npv-knowledge-materials-alignment-3)"}
+file.path(
+  materials_3,
+  "npv_knowledge_1.png"
+) %>%
+  image_read() %>%
+  image_trim() %>%
+  image_contrast() %>%
+  image_border(color = "white", geometry = "5x5") %>%
+  image_border(color = "black", geometry = "5x5")
+```
+
+\newpage
+\newpage
+
+## Variance Lecture {#variance-lecture-materials-alignment-3}
+
+See below the slides for the variance lecture.
+
+```{r, eval=knitr::is_html_output(), out.width='100%', out.height='1000px'}
+file.path(
+  materials_3,
+  "variance_lecture.pdf"
+) %>%
+  include_graphics()
+```
+
+```{r, results='asis', eval=knitr::is_latex_output(), linewidth = 70}
+## From https://ulyngs.github.io/oxforddown/customisations-and-extensions.html#embed-pdf
+## \fbox added from https://tex.stackexchange.com/a/20641/233976
+
+pdf_width <- 1.2
+
+split_path <-
+  file.path(
+    materials_3,
+    "variance_lecture_split/"
+  )
+
+slides <-
+  split_path %>%
+  list.files(full.names = TRUE)
+
+slides %>%
+  # for each PDF page, insert it nicely and
+  # end with a page break
+  paste0(
+    "\\begin{figure} \\makebox[\\linewidth][c]{\\fbox{\\includegraphics[width=",
+    pdf_width,
+    "\\linewidth]{",
+    .,
+    "}}} \\caption{Variance lecture slide ",
+    seq_along(slides),
+    ".} \\end{figure}\n"
+  ) %>%
+  cat()
+```
+
+## Additional Analyses {#results-alignment-3-appendix}
+
+### Ranking
+
+A mixed factorial ANOVA was conducted to investigate the effects of NPV,
+alignment, and numerical NPV reliability on participants’ project rankings.
+Figure \@ref(fig:plot-alignment-3-ranking) shows these data. The alignment
+$\times$ reliability level $\times$ NPV interaction was not
+significant,
+`r results_3$ranking$alignment_reliability_amount_npv_amount`.
+However, the alignment $\times$ NPV interaction was significant,
+`r results_3$ranking$alignment_npv_amount`; as well as the reliability
+amount $\times$ NPV interaction,
+`r results_3$ranking$reliability_amount_npv_amount`. As in the
+allocation data, the linear NPV trend did not differ between reliability level
+condition in neither the low alignment condition,
+`r results_3$ranking$Linear_Low_high_Low`, nor the high alignment
+condition, `r results_3$ranking$Linear_Low_high_High`. However,
+averaging over reliability level, the linear NPV trend was higher in the low
+alignment condition than in the high alignment condition,
+`r results_3$ranking$Linear_Low_high`.
+
+(ref:plot-alignment-3-ranking) Mean ranking.
+
+```{r plot-alignment-3-ranking, fig.cap = "(ref:plot-alignment-3-ranking)"}
+plot_3$ranking
+```
+
+### Confidence
+
+A mixed factorial ANOVA was conducted to investigate the effects of NPV,
+alignment, and numerical NPV reliability on participants’ confidence ratings.
+Figure \@ref(fig:plot-alignment-3-confidence) shows these data. Only the main
+effect of NPV was significant,
+`r results_3$confidence$npv_amount`.
+
+(ref:plot-alignment-3-confidence) Mean confidence.
+
+```{r plot-alignment-3-confidence, fig.cap = "(ref:plot-alignment-3-confidence)"}
+plot_3$confidence
+```
+
+### Variance Lecture
+
+The allocation and ranking data show that participants were affected by the
+similarity of options, but were not affected by variance information. After the
+main task of this experiment, participants were shown a short lecture about the
+importance of variance information when making allocation decisions. They were
+then presented with half of their previous allocations and gave them an
+opportunity to amend their allocations. It was hypothesised that participants
+will be more sensitive to variance after the educational intervention.
+
+A mixed factorial ANOVA was conducted to investigate the effects of phase on
+participants' project allocations. As shown in
+Figure \@ref(fig:plot-alignment-3-variance-lecture), the four-way interaction
+was not significant,
+`r results_3$variance_lecture$alignment_between_npv_amount_phase_reliability_amount`.
+Further, the NPV $\times$ phase $\times$ reliability level interactions were not
+significant for either the low alignment condition,
+`r results_3$variance_lecture$Linear_Pre_post_Low_high_Low`; or the
+high alignment conditions,
+`r results_3$variance_lecture$Linear_Pre_post_Low_high_High`. In the
+low alignment condition, the linear NPV trend (averaged over reliability level)
+was significantly weaker after the lecture, compared with the linear NPV trend
+before the lecture, `r results_3$variance_lecture$Linear_Pre_post_Low`.
+However, this comparison was not significant in the high alignment condition,
+`r results_3$variance_lecture$Linear_Pre_post_High`. These results
+suggest that participants did not become better informed by NPV numerical
+reliability after the variance lecture. There was, however, some reduction in
+reliance on NPV overall when projects were dissimilar.
+
+(ref:plot-alignment-3-variance-lecture) Mean allocation by NPV, reliability level, alignment, and phase.
+
+```{r plot-alignment-3-variance-lecture, fig.height = 10, fig.width = 8, fig.pos = "!htbp", fig.cap = "(ref:plot-alignment-3-variance-lecture)"}
+plot_3$variance_lecture
+```
+
+### NPV Knowledge
+
+A repeated-measures ANOVA was conducted to investigate the effects of experiment
+phase condition on participants’ NPV knowledge rating.
+Figure \@ref(fig:plot-alignment-3-npv-knowledge) shows these data. The main
+effect of phase was significant, `r results_3$npv_knowledge$rating`.
+The post-explanation rating was significantly higher than the pre-explanation
+rating,
+`r results_3$npv_knowledge$X1_X2`. However, there were no significant
+differences in rating between any of the later phases.
+
+(ref:plot-alignment-3-npv-knowledge) Mean NPV knowledge rating.
+
+```{r plot-alignment-3-npv-knowledge, fig.cap = "(ref:plot-alignment-3-npv-knowledge)"}
+plot_3$npv_knowledge
+```
