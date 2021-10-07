@@ -35,7 +35,7 @@ authornote: |
 abstract: (ref:abstract)
   
 keywords          : "structural alignment, similarity, variance neglect, Net Present Value, capital allocation"
-wordcount         : "7011"
+wordcount         : "7040"
 
 bibliography      : "references.bib"
 
