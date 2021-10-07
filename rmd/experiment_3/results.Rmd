@@ -1,4 +1,4 @@
-### Results
+## Results
 
 A mixed factorial ANOVA was conducted to investigate the effects of NPV, project
 alignment, NPV reliability level, and NPV reliability type on participants'
@@ -9,7 +9,7 @@ remainder of the hypothesised allocation effects). The four-way interaction
 was not significant, `r results_8$allocation$four_way`. Regardless,
 the primary hypotheses were supported.
 
-#### Verbal Reliability
+### Verbal Reliability
 
 The three-way interaction (alignment $\times$ reliability level $\times$ NPV
 amount) in the verbal reliability condition was not significant,
@@ -44,7 +44,7 @@ Overall, participants used NPV less when it was described as less reliable in
 both high and low alignment conditions, and further, used NPV more when projects
 were less alignable regardless of how reliable NPV was described to be.
 
-#### Numerical Reliability
+### Numerical Reliability
 
 The numerical reliability data were analysed differently to the verbal
 reliability data because the effects of interest here were the alignment and

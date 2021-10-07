@@ -1,4 +1,4 @@
-### Discussion
+## Discussion
 
 Hypotheses \@ref(hyp:three-way-alignment-2), \@ref(hyp:allocation-alignment-alignment-2), \@ref(hyp:allocation-alignment-reliability-npv-alignment-2),
 and \@ref(hyp:allocation-alignment-high-alignment-2) were supported in the

@@ -1,6 +1,6 @@
-### Method
+## Method
 
-#### Participants
+### Participants
 
 `r descriptives_2$apa` Table \@ref(tab:condition-allocation-alignment-2)
 shows the allocation of participants to the different conditions. NPV was varied
@@ -11,9 +11,9 @@ descriptives_2$condition_allocation_table %>%
   apa_table("Experiment 1 group allocation.")
 ```
 
-#### Materials {#materials-alignment-2}
+### Materials {#materials-alignment-2}
 
-##### Instructions {#instructions-materials-alignment-2}
+#### Instructions {#instructions-materials-alignment-2}
 
 Participants, who did not necessarily have business experience, were first shown
 an instructions page with information about the task and NPV. These instructions
@@ -30,7 +30,7 @@ projects whose attributes inherently expressed their quality.
 Appendix \@ref(instructions-materials-alignment-2-appendix) shows the
 instructions used in Experiment 1.
 
-##### Project Display {#projects-materials-alignment-2}
+#### Project Display {#projects-materials-alignment-2}
 
 Participants were provided with a set of fictional business projects to which
 they were asked to allocate capital. Alignment manipulation was reinforced
@@ -80,7 +80,7 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
-##### Allocation
+#### Allocation
 
 Participants completed a capital allocation task (see
 Figure \@ref(fig:allocation-alignment-2)) adapted from @bardolet2011 in which
@@ -102,7 +102,7 @@ file.path(
   image_border(color = "black", geometry = "5x5")
 ```
 
-##### Additional Measures
+#### Additional Measures
 
 Other measures apart from allocation were included. The stimuli for and analyses
 of these measures are reported in
@@ -115,7 +115,7 @@ their decisions (see Figure \@ref(fig:confidence-materials-alignment-2)), and
 justify their decisions (see
 Figure \@ref(fig:justification-materials-alignment-2)).
 
-#### Procedure
+### Procedure
 
 After reading the relevant instruction page, participants allocated to the low
 alignment conditions completed the forecasting task directly beneath each

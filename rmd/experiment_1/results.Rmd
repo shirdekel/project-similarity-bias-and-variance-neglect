@@ -1,4 +1,4 @@
-### Results
+## Results
 
 A mixed factorial ANOVA was conducted to investigate the effects of project
 alignment and NPV reliability level on participants' budget allocations. As

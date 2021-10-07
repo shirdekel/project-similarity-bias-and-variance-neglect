@@ -1,6 +1,6 @@
-### Method
+## Method
 
-#### Participants
+### Participants
 
 `r descriptives_8$apa` Table \@ref(tab:condition-allocation-alignment-8)
 shows the allocation of participants to the different conditions. The two
@@ -15,9 +15,9 @@ descriptives_8$condition_allocation_table %>%
   apa_table("Experiment 3 group allocation.")
 ```
 
-#### Materials
+### Materials
 
-##### Instructions
+#### Instructions
 
 Participants were given instructions similar to those in the previous
 experiments, with an added explanation about the NPV reliability information for
@@ -26,7 +26,7 @@ Appendix \@ref(instructions-materials-alignment-8-appendix)). Further, they
 completed a test of basic NPV understanding. Further, they completed a test on
 basic NPV understanding, which also functioned as an attention check.
 
-##### Project Display
+#### Project Display
 
 The project displays were similar to those used in the previous experiments.
 However, participants were given the same presentation style for both alignment
@@ -70,7 +70,7 @@ low alignment group, projects varied by their intrinsic features (e.g., whether
 the oil well project in the set indicated a probability of finding oil of 96% or
 90%). Table column order and project display order were both randomised.
 
-##### Interstitial Page
+#### Interstitial Page
 
 Prior to each project being displayed, participants were shown an interstitial
 page, which was used to (a) introduce the next display, and (b) check the

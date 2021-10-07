@@ -1,4 +1,4 @@
-### Discussion
+## Discussion
 
 Based on participants with real-world business experience, Experiment 2
 replicated the alignment effect found in Experiment 1. That is, participants

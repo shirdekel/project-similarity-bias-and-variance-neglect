@@ -1,4 +1,4 @@
-### Discussion
+## Discussion
 
 Experiment 1 found evidence for the effect of project alignment on laypeople’s
 decision-making in capital allocation scenarios. Specifically, when projects

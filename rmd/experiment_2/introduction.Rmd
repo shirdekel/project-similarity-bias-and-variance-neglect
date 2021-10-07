@@ -1,4 +1,4 @@
-## Experiment 2 {#alignment-3}
+# Experiment 2 {#alignment-3}
 
 ```{r setup-alignment-3}
 tar_load(descriptives_3)

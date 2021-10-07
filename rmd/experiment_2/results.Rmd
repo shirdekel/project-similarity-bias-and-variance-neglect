@@ -1,4 +1,4 @@
-### Results {#results-alignment-2}
+## Results {#results-alignment-2}
 
 A within-subjects factorial ANOVA was conducted to investigate the effects of
 NPV, project alignment, and numerical NPV reliability on participants' project

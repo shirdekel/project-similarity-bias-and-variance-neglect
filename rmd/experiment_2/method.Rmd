@@ -1,14 +1,14 @@
-### Method {#method-alignment-2}
+## Method {#method-alignment-2}
 
-#### Participants
+### Participants
 
 `r descriptives_3$apa` Both the reliability level (low and high) and
 project alignment (low and high) conditions were presented to subjects, and the
 order of presentation was counterbalanced.
 
-#### Materials
+### Materials
 
-##### Instructions
+#### Instructions
 
 Participants were shown similar instructions to those used in Experiment 1 (see
 Section \@ref(instructions-materials-alignment-2)). However, they were given
@@ -16,12 +16,12 @@ more NPV information (including discount rate and initial investment).
 Appendix \@ref(instructions-materials-alignment-3-appendix) shows the full
 instructions.
 
-##### NPV Test
+#### NPV Test
 
 Participants were asked to complete a short, simple test to check their
 understanding of NPV (see Appendix \@ref(npv-test-materials-alignment-3)).
 
-##### Project Display
+#### Project Display
 
 As shown in Figures \@ref(fig:projects-alignment-low-materials-alignment-3)
 and \@ref(fig:projects-alignment-high-materials-alignment-3), projects were
@@ -62,13 +62,13 @@ file.path(
   image_contrast()
 ```
 
-##### NPV Knowledge Ratings
+#### NPV Knowledge Ratings
 
 Participants were asked to rate their confidence in knowledge of NPV at multiple
 points in the experiment. Appendix \@ref(npv-knowledge-materials-alignment-3)
 shows an example of this display.
 
-##### Variance Lecture
+#### Variance Lecture
 
 Participants were given a short lecture on the importance of paying attention to
 variance information in an attempt to increase their use of numerical
@@ -76,7 +76,7 @@ reliability information in their allocations (see
 Appendix \@ref(variance-lecture-materials-alignment-3) for more details and the
 lecture slides).
 
-#### Procedure {#procedure-alignment-3}
+### Procedure {#procedure-alignment-3}
 
 Participants were provided with the instructions and an explanation of NPV
 before completing a simple test to demonstrate their understanding of NPV. They

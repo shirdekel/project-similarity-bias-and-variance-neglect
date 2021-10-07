@@ -1,4 +1,4 @@
-## General Discussion
+# General Discussion
 
 Across three experiments there were two main findings: (a) NPV is used more when
 options are difficult to compare in the low alignment conditions; and (b) people

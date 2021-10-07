@@ -1,7 +1,5 @@
 # Project Similarity Bias and Variance Neglect in Forecast Metric Evaluation
 
-## Introduction
-
 One of the most important tasks faced by executives is the allocation of capital
 within their companies. This requires the ranking of projects by importance and
 predicted success, and allocating the limited capital accordingly (not unlike a
@@ -95,7 +93,7 @@ numerical sequences [@rosenbaum2020]. However, they struggle to use variance
 information when it is represented numerically [@galesic2010; @konold1993;
 @vivalt2021; @batteux2020].
 
-### Experiment Summary
+## Experiment Summary
 
 Experiment 1 investigated the effect of project alignment on the decision-making
 of naive participants asked to allocate capital to a set of fictional projects.
