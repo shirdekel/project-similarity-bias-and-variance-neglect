@@ -37,7 +37,7 @@ abstract: (ref:abstract)
 keywords          : "structural alignment, similarity, variance neglect, Net Present Value, capital allocation"
 wordcount         : "7011"
 
-bibliography      : '`r here::here("references.bib")`'
+bibliography      : "references.bib"
 
 floatsintext      : yes
 figurelist        : no
@@ -63,7 +63,7 @@ header-includes:
   - \usepackage{pdflscape}
   - \newcommand{\blandscape}{\begin{landscape}}
   - \newcommand{\elandscape}{\end{landscape}}
-csl               : '`r here::here("apa.csl")`'
+csl               : "apa.csl"
 documentclass     : "apa7"
 classoption       : "man, donotrepeattitle"
 output            : papaja::apa6_pdf
