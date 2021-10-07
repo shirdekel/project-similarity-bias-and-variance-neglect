@@ -23,8 +23,8 @@ Experiment 3 found further evidence of these effects within one experimental
 design.
 
 Alignable differences have been shown to be important into decision-making in
-many settings [@markman2010; @markman1995]. The experiments presented in this
-chapter are novel in terms of the effects of project alignment on capital
+many settings [@markman2010; @markman1995]. The experiments presented in the
+present study are novel in terms of the effects of project alignment on capital
 allocation. Further, these experiments considered the extent to which the
 reliability of an alignable measure (NPV) affects the way in which it is used.
 This depended on the availability of other alignable differences in the set of

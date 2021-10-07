@@ -43,4 +43,4 @@ numerical reliability (see Appendix \@ref(alignment-3-appendix)). Further,
 Experiment 2 investigated whether participants would be over-confident in their
 understanding of NPV [as in @long2018]. These results are also reported in
 Appendix \@ref(alignment-3-appendix) because they are not highly relevant to
-this chapter.
+the present study.

@@ -33,7 +33,7 @@ exploration project will be substantially different from that of processes in
 the refinery project, making it difficult to find meaningful alignments. With a
 higher number of non-alignable differences, there are fewer opportunities to
 make meaningful comparisons, leading to greater difficulty in predicting project
-success and ranking projects. This chapter experimentally examined project
+success and ranking projects. The present study experimentally examined project
 comparisons and how such comparisons may affect capital allocation decisions.
 The working hypothesis is that projects that have a higher number of alignable
 differences will lead to more precise and informed project predictions and

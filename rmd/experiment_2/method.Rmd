@@ -10,11 +10,10 @@ order of presentation was counterbalanced.
 
 #### Instructions
 
-Participants were shown similar instructions to those used in Experiment 1 (see
-Section \@ref(instructions-materials-alignment-2)). However, they were given
-more NPV information (including discount rate and initial investment).
-Appendix \@ref(instructions-materials-alignment-3-appendix) shows the full
-instructions.
+Participants were shown similar instructions to those used in Experiment 1.
+However, they were given more NPV information (including discount rate and
+initial investment). Appendix \@ref(instructions-materials-alignment-3-appendix)
+shows the full instructions.
 
 #### NPV Test
 
