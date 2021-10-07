@@ -131,9 +131,16 @@
   {}{\typeout{Failed to patch title.}}
 \makeatother
 \shorttitle{Project Similarity Bias and Variance Neglect}
-\keywords{structural alignment, similarity, variance neglect, Net Present Value, capital allocation\newline\indent Word count: 7011}
+\keywords{structural alignment, similarity, variance neglect, Net Present Value, capital allocation\newline\indent Word count: 7040}
 \usepackage{csquotes}
 \raggedbottom
+\renewcommand\author[1]{}
+\renewcommand\affiliation[1]{}
+\authorsnames[1, 1, 2, 1]{Shir Dekel, Micah Goldwater, Dan Lovallo, Bruce Burns}
+\authorsaffiliations{{The University of Sydney, School of Psychology}, {The University of Sydney, Business School}}
+\usepackage{pdflscape}
+\newcommand{\blandscape}{\begin{landscape}}
+\newcommand{\elandscape}{\end{landscape}}
 \ifxetex
   % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)
   \usepackage{polyglossia}
@@ -237,9 +244,6 @@ variance information in their decisions.
 \hypertarget{project-similarity-bias-and-variance-neglect-in-forecast-metric-evaluation}{%
 \section{Project Similarity Bias and Variance Neglect in Forecast Metric Evaluation}\label{project-similarity-bias-and-variance-neglect-in-forecast-metric-evaluation}}
 
-\hypertarget{introduction}{%
-\subsection{Introduction}\label{introduction}}
-
 One of the most important tasks faced by executives is the allocation of capital
 within their companies. This requires the ranking of projects by importance and
 predicted success, and allocating the limited capital accordingly (not unlike a
@@ -273,7 +277,7 @@ exploration project will be substantially different from that of processes in
 the refinery project, making it difficult to find meaningful alignments. With a
 higher number of non-alignable differences, there are fewer opportunities to
 make meaningful comparisons, leading to greater difficulty in predicting project
-success and ranking projects. This chapter experimentally examined project
+success and ranking projects. The present study experimentally examined project
 comparisons and how such comparisons may affect capital allocation decisions.
 The working hypothesis is that projects that have a higher number of alignable
 differences will lead to more precise and informed project predictions and
@@ -333,7 +337,7 @@ numerical sequences (Rosenbaum et al., \protect\hyperlink{ref-rosenbaum2020}{202
 information when it is represented numerically (Batteux et al., \protect\hyperlink{ref-batteux2020}{2020}; Galesic \& Garcia-Retamero, \protect\hyperlink{ref-galesic2010}{2010}; Konold et al., \protect\hyperlink{ref-konold1993}{1993}; Vivalt \& Coville, \protect\hyperlink{ref-vivalt2021}{2021}).
 
 \hypertarget{experiment-summary}{%
-\subsubsection{Experiment Summary}\label{experiment-summary}}
+\subsection{Experiment Summary}\label{experiment-summary}}
 
 Experiment~1 investigated the effect of project alignment on the decision-making
 of naive participants asked to allocate capital to a set of fictional projects.
@@ -368,7 +372,7 @@ descriptions with clearer profitability indicators and added a larger selection
 of business industries.
 
 \hypertarget{alignment-2}{%
-\subsection{Experiment~1}\label{alignment-2}}
+\section{Experiment~1}\label{alignment-2}}
 
 Experiment~1 investigated the effects of project alignment and explicit NPV
 reliability information on capital allocation decisions. The structural
@@ -457,10 +461,10 @@ NPV information.
 \end{hypothesis}
 
 \hypertarget{method}{%
-\subsubsection{Method}\label{method}}
+\subsection{Method}\label{method}}
 
 \hypertarget{participants}{%
-\paragraph{Participants}\label{participants}}
+\subsubsection{Participants}\label{participants}}
 
 One hundred and eighteen participants (55 female) were recruited from the online recruitment platform Prolific. Participants were compensated at a rate of \pounds 5 an hour (Prolific is based in the UK). The average age was 29.42 years (\emph{SD} = 9.25, \emph{min.} = 18, \emph{max.} = 73).~Table~\ref{tab:condition-allocation-alignment-2}
 shows the allocation of participants to the different conditions. NPV was varied
@@ -493,10 +497,10 @@ Total &  & 118\\
 \end{table}
 
 \hypertarget{materials-alignment-2}{%
-\paragraph{Materials}\label{materials-alignment-2}}
+\subsubsection{Materials}\label{materials-alignment-2}}
 
 \hypertarget{instructions-materials-alignment-2}{%
-\subparagraph{Instructions}\label{instructions-materials-alignment-2}}
+\paragraph{Instructions}\label{instructions-materials-alignment-2}}
 
 Participants, who did not necessarily have business experience, were first shown
 an instructions page with information about the task and NPV. These instructions
@@ -514,7 +518,7 @@ Appendix~\ref{instructions-materials-alignment-2-appendix} shows the
 instructions used in Experiment~1.
 
 \hypertarget{projects-materials-alignment-2}{%
-\subparagraph{Project Display}\label{projects-materials-alignment-2}}
+\paragraph{Project Display}\label{projects-materials-alignment-2}}
 
 Participants were provided with a set of fictional business projects to which
 they were asked to allocate capital. Alignment manipulation was reinforced
@@ -549,7 +553,7 @@ Experiment~3 by using the table format for both alignment conditions.
 \end{figure}
 
 \hypertarget{allocation}{%
-\subparagraph{Allocation}\label{allocation}}
+\paragraph{Allocation}\label{allocation}}
 
 Participants completed a capital allocation task (see
 Figure~\ref{fig:allocation-alignment-2}) adapted from Bardolet et al. (\protect\hyperlink{ref-bardolet2011}{2011}) in which
@@ -563,12 +567,11 @@ projects.
 \end{figure}
 
 \hypertarget{additional-measures}{%
-\subparagraph{Additional Measures}\label{additional-measures}}
+\paragraph{Additional Measures}\label{additional-measures}}
 
 Other measures apart from allocation were included. The stimuli for and analyses
 of these measures are reported in
-Appendices~\ref{materials-alignment-2-appendix}
-and~\ref{results-alignment-2-appendix}, respectively. Specifically,
+Appendix~\ref{alignment-2-appendix}. Specifically,
 participants were asked to forecast the future returns of the projects (see
 Figure~\ref{fig:forecasting-materials-alignment-2}), rank the projects (see
 Figure~\ref{fig:ranking-materials-alignment-2}), indicate their confidence in
@@ -577,7 +580,7 @@ justify their decisions (see
 Figure~\ref{fig:justification-materials-alignment-2}).
 
 \hypertarget{procedure}{%
-\paragraph{Procedure}\label{procedure}}
+\subsubsection{Procedure}\label{procedure}}
 
 After reading the relevant instruction page, participants allocated to the low
 alignment conditions completed the forecasting task directly beneath each
@@ -586,7 +589,7 @@ beneath all projects. Participants were then asked to rank the projects and
 subsequently answer the allocation, confidence, and justification questions.
 
 \hypertarget{results}{%
-\subsubsection{Results}\label{results}}
+\subsection{Results}\label{results}}
 
 A mixed factorial ANOVA was conducted to investigate the effects of project
 alignment and NPV reliability level on participants' budget allocations. As
@@ -632,11 +635,10 @@ the allocation findings (see Appendix~\ref{results-alignment-2-appendix}). The
 results also show that the forecasts of those in the low alignment condition had
 higher standard deviations than those in the high alignment condition (see
 Appendix~\ref{forecast-sd-alignment-2}). However, this was not replicated in
-subsequent experiments (see Appendices~\ref{forecast-sd-alignment-4}
-and~\ref{forecast-sd-alignment-5}).
+follow-up experiments (Dekel, \protect\hyperlink{ref-dekel2021b}{2021}, Appendix B.5, \protect\hyperlink{ref-dekel2021b}{2021}, Appendix B.6).
 
 \hypertarget{discussion}{%
-\subsubsection{Discussion}\label{discussion}}
+\subsection{Discussion}\label{discussion}}
 
 Experiment~1 found evidence for the effect of project alignment on laypeople's
 decision-making in capital allocation scenarios. Specifically, when projects
@@ -656,7 +658,7 @@ such information. Therefore, Experiment~2 used a sample of students enrolled in
 a Master of Management degree, instead of the laypeople used in Experiment~1.
 
 \hypertarget{alignment-3}{%
-\subsection{Experiment~2}\label{alignment-3}}
+\section{Experiment~2}\label{alignment-3}}
 
 Experiment~2 investigated the effects of project alignment and
 numerically-expressed NPV reliability information on capital allocation
@@ -694,38 +696,37 @@ numerical reliability (see Appendix~\ref{alignment-3-appendix}). Further,
 Experiment~2 investigated whether participants would be over-confident in their
 understanding of NPV (as in Long et al., \protect\hyperlink{ref-long2018}{2018}). These results are also reported in
 Appendix~\ref{alignment-3-appendix} because they are not highly relevant to
-this chapter.
+the present study.
 
 \hypertarget{method-alignment-2}{%
-\subsubsection{Method}\label{method-alignment-2}}
+\subsection{Method}\label{method-alignment-2}}
 
 \hypertarget{participants-1}{%
-\paragraph{Participants}\label{participants-1}}
+\subsubsection{Participants}\label{participants-1}}
 
 Fifty-four participants (28 female) were recruited from a Master of Management degree at an Australian university. Age information was not recorded.~Both the reliability level (low and high) and
 project alignment (low and high) conditions were presented to subjects, and the
 order of presentation was counterbalanced.
 
 \hypertarget{materials}{%
-\paragraph{Materials}\label{materials}}
+\subsubsection{Materials}\label{materials}}
 
 \hypertarget{instructions}{%
-\subparagraph{Instructions}\label{instructions}}
+\paragraph{Instructions}\label{instructions}}
 
-Participants were shown similar instructions to those used in Experiment~1 (see
-Section~\ref{instructions-materials-alignment-2}). However, they were given
-more NPV information (including discount rate and initial investment).
-Appendix~\ref{instructions-materials-alignment-3-appendix} shows the full
-instructions.
+Participants were shown similar instructions to those used in Experiment~1.
+However, they were given more NPV information (including discount rate and
+initial investment). Appendix~\ref{instructions-materials-alignment-3-appendix}
+shows the full instructions.
 
 \hypertarget{npv-test}{%
-\subparagraph{NPV Test}\label{npv-test}}
+\paragraph{NPV Test}\label{npv-test}}
 
 Participants were asked to complete a short, simple test to check their
 understanding of NPV (see Appendix~\ref{npv-test-materials-alignment-3}).
 
 \hypertarget{project-display}{%
-\subparagraph{Project Display}\label{project-display}}
+\paragraph{Project Display}\label{project-display}}
 
 As shown in Figures~\ref{fig:projects-alignment-low-materials-alignment-3}
 and~\ref{fig:projects-alignment-high-materials-alignment-3}, projects were
@@ -753,14 +754,14 @@ told to treat each set of projects independently.
 \end{figure}
 
 \hypertarget{npv-knowledge-ratings}{%
-\subparagraph{NPV Knowledge Ratings}\label{npv-knowledge-ratings}}
+\paragraph{NPV Knowledge Ratings}\label{npv-knowledge-ratings}}
 
 Participants were asked to rate their confidence in knowledge of NPV at multiple
 points in the experiment. Appendix~\ref{npv-knowledge-materials-alignment-3}
 shows an example of this display.
 
 \hypertarget{variance-lecture}{%
-\subparagraph{Variance Lecture}\label{variance-lecture}}
+\paragraph{Variance Lecture}\label{variance-lecture}}
 
 Participants were given a short lecture on the importance of paying attention to
 variance information in an attempt to increase their use of numerical
@@ -769,7 +770,7 @@ Appendix~\ref{variance-lecture-materials-alignment-3} for more details and the
 lecture slides).
 
 \hypertarget{procedure-alignment-3}{%
-\paragraph{Procedure}\label{procedure-alignment-3}}
+\subsubsection{Procedure}\label{procedure-alignment-3}}
 
 Participants were provided with the instructions and an explanation of NPV
 before completing a simple test to demonstrate their understanding of NPV. They
@@ -784,7 +785,7 @@ project displays. They were then asked to rate their knowledge of NPV before and
 after the variance presentation.
 
 \hypertarget{results-alignment-2}{%
-\subsubsection{Results}\label{results-alignment-2}}
+\subsection{Results}\label{results-alignment-2}}
 
 A within-subjects factorial ANOVA was conducted to investigate the effects of
 NPV, project alignment, and numerical NPV reliability on participants' project
@@ -821,7 +822,7 @@ facilitate participants' use of numerical reliability information. These
 analyses are reported in Appendix~\ref{results-alignment-3-appendix}.
 
 \hypertarget{discussion-1}{%
-\subsubsection{Discussion}\label{discussion-1}}
+\subsection{Discussion}\label{discussion-1}}
 
 Based on participants with real-world business experience, Experiment 2
 replicated the alignment effect found in Experiment 1. That is, participants
@@ -871,7 +872,7 @@ unnecessarily increase task difficulty. Therefore, Experiment~3 attempted to
 replicate this effect while controlling for presentation style
 
 \hypertarget{alignment-8}{%
-\subsection{Experiment~3}\label{alignment-8}}
+\section{Experiment~3}\label{alignment-8}}
 
 Experiment~3 investigated the effects of project alignment, NPV, NPV reliability
 type and NPV reliability level on participants' budget allocations. Experiment~1
@@ -894,8 +895,8 @@ presentation style for both alignment conditions.
 
 In Experiment~3, the expected results for the verbal reliability condition
 replicated those of Experiment~1. The numerical reliability condition may
-replicate the findings of Experiment~2. However, a pilot experiment (detailed in
-Appendix~\ref{alignment-7}) found no significant differences between numerical
+replicate the findings of Experiment~2. However, a pilot experiment
+(Dekel, \protect\hyperlink{ref-dekel2021b}{2021}, Appendix B.8) found no significant differences between numerical
 reliability conditions. Appendix~\ref{alignment-8-appendix} shows a simulation
 of the hypothesised effects, with the numerical reliability effects based on the
 findings of the pilot experiment. Therefore, Experiment~3 retested
@@ -906,10 +907,10 @@ will look more like the pattern found in the pilot experiment or the pattern
 found in Experiment~2.
 
 \hypertarget{method-1}{%
-\subsubsection{Method}\label{method-1}}
+\subsection{Method}\label{method-1}}
 
 \hypertarget{participants-2}{%
-\paragraph{Participants}\label{participants-2}}
+\subsubsection{Participants}\label{participants-2}}
 
 Four hundred and forty-eight participants (176 female) were recruited from the online recruitment platform Prolific. Participants were compensated at a rate of \pounds 5 an hour (Prolific is based in the UK). The average age was 41.65 years (\emph{SD} = 10.3, \emph{min.} = 29, \emph{max.} = 78). Participants reported an average of 6.94 years (\emph{SD} = 8.23, \emph{min.} = 0, \emph{max.} = 43) working in a business setting, and an average of 3.73 years (\emph{SD} = 6.27, \emph{min.} = 0, \emph{max.} = 45) of business education. The mean completion time of the task was 11.35 min (\emph{SD} = 10.79, \emph{min.} = 1.92, \emph{max.} = 183.7).~Table~\ref{tab:condition-allocation-alignment-8}
 shows the allocation of participants to the different conditions. The two
@@ -944,10 +945,10 @@ Total &  & 448\\
 \end{table}
 
 \hypertarget{materials-1}{%
-\paragraph{Materials}\label{materials-1}}
+\subsubsection{Materials}\label{materials-1}}
 
 \hypertarget{instructions-1}{%
-\subparagraph{Instructions}\label{instructions-1}}
+\paragraph{Instructions}\label{instructions-1}}
 
 Participants were given instructions similar to those in the previous
 experiments, with an added explanation about the NPV reliability information for
@@ -957,7 +958,7 @@ completed a test of basic NPV understanding. Further, they completed a test on
 basic NPV understanding, which also functioned as an attention check.
 
 \hypertarget{project-display-1}{%
-\subparagraph{Project Display}\label{project-display-1}}
+\paragraph{Project Display}\label{project-display-1}}
 
 The project displays were similar to those used in the previous experiments.
 However, participants were given the same presentation style for both alignment
@@ -992,7 +993,7 @@ the oil well project in the set indicated a probability of finding oil of 96\% o
 90\%). Table column order and project display order were both randomised.
 
 \hypertarget{interstitial-page}{%
-\subparagraph{Interstitial Page}\label{interstitial-page}}
+\paragraph{Interstitial Page}\label{interstitial-page}}
 
 Prior to each project being displayed, participants were shown an interstitial
 page, which was used to (a) introduce the next display, and (b) check the
@@ -1001,7 +1002,7 @@ easily skip the page without reading the text). See
 Appendix~\ref{interstitial-materials-alignment-8} for an example.
 
 \hypertarget{results-1}{%
-\subsubsection{Results}\label{results-1}}
+\subsection{Results}\label{results-1}}
 
 A mixed factorial ANOVA was conducted to investigate the effects of NPV, project
 alignment, NPV reliability level, and NPV reliability type on participants'
@@ -1013,7 +1014,7 @@ was not significant, \(F(3.20, 1,420.19) = 0.71\), \(p = .555\), \(\hat{\eta}^2_
 the primary hypotheses were supported.
 
 \hypertarget{verbal-reliability}{%
-\paragraph{Verbal Reliability}\label{verbal-reliability}}
+\subsubsection{Verbal Reliability}\label{verbal-reliability}}
 
 The three-way interaction (alignment \(\times\) reliability level \(\times\) NPV
 amount) in the verbal reliability condition was not significant,
@@ -1049,7 +1050,7 @@ both high and low alignment conditions, and further, used NPV more when projects
 were less alignable regardless of how reliable NPV was described to be.
 
 \hypertarget{numerical-reliability}{%
-\paragraph{Numerical Reliability}\label{numerical-reliability}}
+\subsubsection{Numerical Reliability}\label{numerical-reliability}}
 
 The numerical reliability data were analysed differently to the verbal
 reliability data because the effects of interest here were the alignment and
@@ -1081,7 +1082,7 @@ reliability condition, allocations depended on NPV reliability level in both
 alignment conditions.
 
 \hypertarget{discussion-2}{%
-\subsubsection{Discussion}\label{discussion-2}}
+\subsection{Discussion}\label{discussion-2}}
 
 Hypotheses~\ref{hyp:three-way-alignment-2},~\ref{hyp:allocation-alignment-alignment-2},~\ref{hyp:allocation-alignment-reliability-npv-alignment-2},
 and~\ref{hyp:allocation-alignment-high-alignment-2} were supported in the
@@ -1100,18 +1101,17 @@ shown by the positive NPV trend in both reliability level conditions.
 Further, Experiment~3 replicated the finding of Experiment~2 for the numerical
 reliability condition. Specifically, participants relied more on NPV when
 projects were dissimilar but, critically, did not use numerical range
-information to influence their allocations. A pilot study (documented in
-Appendix~\ref{alignment-7}) replicated the results of Experiment~1 in the
-verbal reliability condition, but did not replicate the results of Experiment~2
-in the numerical reliability condition. That is, when faced with numerical
-ranges as the NPV reliability information, participants did not even use the
-midpoint in their decisions. The results of Experiment~3 suggest that the
-finding in the pilot experiment may have been spurious or due to an unexplored
-component of the experimental design, but this can only be deteremined with
-future research.
+information to influence their allocations. A pilot study (Dekel, \protect\hyperlink{ref-dekel2021b}{2021},
+Appendix B.8) replicated the results of Experiment~1 in the verbal reliability
+condition, but did not replicate the results of Experiment~2 in the numerical
+reliability condition. That is, when faced with numerical ranges as the NPV
+reliability information, participants did not even use the midpoint in their
+decisions. The results of Experiment~3 suggest that the finding in the pilot
+experiment may have been spurious or due to an unexplored component of the
+experimental design, but this can only be deteremined with future research.
 
 \hypertarget{general-discussion}{%
-\subsection{General Discussion}\label{general-discussion}}
+\section{General Discussion}\label{general-discussion}}
 
 Across three experiments there were two main findings: (a) NPV is used more when
 options are difficult to compare in the low alignment conditions; and (b) people
@@ -1136,8 +1136,8 @@ Experiment~3 found further evidence of these effects within one experimental
 design.
 
 Alignable differences have been shown to be important into decision-making in
-many settings (Markman \& Loewenstein, \protect\hyperlink{ref-markman2010}{2010}; Markman \& Medin, \protect\hyperlink{ref-markman1995}{1995}). The experiments presented in this
-chapter are novel in terms of the effects of project alignment on capital
+many settings (Markman \& Loewenstein, \protect\hyperlink{ref-markman2010}{2010}; Markman \& Medin, \protect\hyperlink{ref-markman1995}{1995}). The experiments presented in the
+present study are novel in terms of the effects of project alignment on capital
 allocation. Further, these experiments considered the extent to which the
 reliability of an alignable measure (NPV) affects the way in which it is used.
 This depended on the availability of other alignable differences in the set of
@@ -1146,7 +1146,7 @@ willing to reduce their use of a reportedly unreliable alignable measure (or use
 it when told that it was reliable). However, when no other alignable differences
 were available, then the alignable, albeit unreliable, measure was more likely
 to be used. This was found in both Experiments~1 and~3, as well as in a pilot
-study to a lesser extent (reported in Appendix~\ref{alignment-1}).
+study to a lesser extent (reported in Dekel, \protect\hyperlink{ref-dekel2021b}{2021}, Appendix B.4).
 
 Financial measures such as NPV are useful because of their alignability. That
 is, they may serve as an alignable difference, regardless of the inherent
@@ -1178,7 +1178,7 @@ instance, it is unclear whether it is merely salience that is lacking, meaning
 that visual aids could be useful, or whether a further explicit explanation of
 statistical inference is necessary. The findings of a pilot experiment suggest
 that participants struggle to use numerical NPV reliability information, even
-when given explicit instructions (see Appendix~\ref{alignment-6}).
+when given explicit instructions (Dekel, \protect\hyperlink{ref-dekel2021b}{2021}, Appendix B.7).
 
 A possible limitation of these experiments is the use of NPV as the only
 financial metric. In the business world, there are many metrics that serve
@@ -1202,6 +1202,7 @@ participants in a condition in which the variance information is more salient.
 \hypertarget{references}{%
 \section{References}\label{references}}
 
+\begingroup
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
 
@@ -1215,6 +1216,9 @@ Batteux, E., Bilovich, A., Johnson, S., \& Tuckett, D. (2020). \emph{Impressed b
 
 \leavevmode\hypertarget{ref-cousineau2014}{}%
 Cousineau, D., \& O'Brien, F. (2014). Error bars in within-subject designs: A comment on Baguley (2012). \emph{Behavior Research Methods}, \emph{46}(4), 1149--1151. \url{https://doi.org/10/f6vdsw}
+
+\leavevmode\hypertarget{ref-dekel2021b}{}%
+Dekel, S. (2021). \emph{The Psychology of Managerial Capital Allocation} {[}Doctoral dissertation, The University of Sydney{]}. \url{https://thesis.shirdekel.com/}
 
 \leavevmode\hypertarget{ref-doumas2013}{}%
 Doumas, L. A. A., \& Hummel, J. E. (2013). Comparison and Mapping Facilitate Relation Discovery and Predication. \emph{PLoS ONE}, \emph{8}(6), 1--8. \url{https://doi.org/10/gjscsn}
@@ -1239,6 +1243,9 @@ Graham, J. R., Harvey, C. R., \& Puri, M. (2015). Capital allocation and delegat
 
 \leavevmode\hypertarget{ref-konold1993}{}%
 Konold, C., Pollatsek, A., Well, A., Lohmeier, J., \& Lipson, A. (1993). Inconsistencies in Students' Reasoning about Probability. \emph{Journal for Research in Mathematics Education}, \emph{24}(5), 392. \url{https://doi.org/10/bq4hvm}
+
+\leavevmode\hypertarget{ref-lakens2018}{}%
+Lakens, D., Scheel, A. M., \& Isager, P. M. (2018). Equivalence Testing for Psychological Research: A Tutorial. \emph{Advances in Methods and Practices in Psychological Science}, \emph{1}(2), 259--269. \url{https://doi.org/10/gdj7s9}
 
 \leavevmode\hypertarget{ref-lassaline1996}{}%
 Lassaline, M. E. (1996). Structural alignment in induction and similarity. \emph{Journal of Experimental Psychology: Learning, Memory, and Cognition}, \emph{22}(3), 754--770. \url{https://doi.org/10/fq9fww}
@@ -1273,6 +1280,485 @@ Vivalt, E., \& Coville, A. (2021). \emph{How Do Policy-Makers Update Their Belie
 \leavevmode\hypertarget{ref-willigers2017}{}%
 Willigers, B. J. A., Jones, B., \& Bratvold, R. B. (2017). The Net-Present-Value Paradox: Criticized by Many, Applied by All. \emph{SPE Economics \& Management}, \emph{9}(04), 090--102. \url{https://doi.org/10/gjscsx}
 \end{cslreferences}
+
+\endgroup
+
+\hypertarget{appendix-appendix}{%
+\appendix}
+
+
+\hypertarget{alignment-2-appendix}{%
+\section{Experiment 1}\label{alignment-2-appendix}}
+
+\hypertarget{instructions-materials-alignment-2-appendix}{%
+\subsection{Instructions}\label{instructions-materials-alignment-2-appendix}}
+
+Figures~\ref{fig:instructions-reliability-low-alignment-2},~\ref{fig:instructions-reliability-high-alignment-2},
+and~\ref{fig:instructions-reliability-no-npv-alignment-2} show the instructions
+given to those in the low NPV reliability, high NPV reliability, and no NPV
+condition, respectively.
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/instructions-reliability-low-alignment-2-1} \caption{Experiment~1 low reliability instructions.}\label{fig:instructions-reliability-low-alignment-2}
+\end{figure}
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/instructions-reliability-high-alignment-2-1} \caption{Experiment~1 high reliability instructions.}\label{fig:instructions-reliability-high-alignment-2}
+\end{figure}
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/instructions-reliability-no-npv-alignment-2-1} \caption{The instructions for the no NPV condition in Experiment~1.}\label{fig:instructions-reliability-no-npv-alignment-2}
+\end{figure}
+
+\hypertarget{forecasting-materials-alignment-2}{%
+\subsection{Forecasting}\label{forecasting-materials-alignment-2}}
+
+Participants were asked to respond to a forecasting task (adapted from Long et al., \protect\hyperlink{ref-long2018}{2018}), seen in Figure~\ref{fig:forecasting-materials-alignment-2}.
+Participants were asked to predict each project's rate of return after one
+month. This allowed to calculate each participant's forecasting mean and
+standard deviation (the latter as inversely proportional to forecasting
+precision).
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/forecasting-materials-alignment-2-1} \caption{The forecasting task.}\label{fig:forecasting-materials-alignment-2}
+\end{figure}
+
+\hypertarget{ranking-materials-alignment-2}{%
+\subsection{Ranking}\label{ranking-materials-alignment-2}}
+
+As shown in Figure~\ref{fig:ranking-materials-alignment-2}, participants were
+asked to rank the projects in order of investment priority.
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/ranking-materials-alignment-2-1} \caption{The ranking task.}\label{fig:ranking-materials-alignment-2}
+\end{figure}
+
+\hypertarget{confidence-materials-alignment-2}{%
+\subsection{Confidence}\label{confidence-materials-alignment-2}}
+
+As Figure~\ref{fig:confidence-materials-alignment-2} shows, participants were
+asked to indicate how confident they were about each of their allocation
+decisions on a scale from 0 (``Not confident at all'') to 100 (``Extremely
+confident'').
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/confidence-materials-alignment-2-1} \caption{The confidence task.}\label{fig:confidence-materials-alignment-2}
+\end{figure}
+
+\hypertarget{justification-materials-alignment-2}{%
+\subsection{Justification}\label{justification-materials-alignment-2}}
+
+As Figure~\ref{fig:justification-materials-alignment-2} shows, participants
+were asked to justify their allocation decision in a free-response text-box.
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/justification-materials-alignment-2-1} \caption{The justification task.}\label{fig:justification-materials-alignment-2}
+\end{figure}
+
+\hypertarget{results-alignment-2-appendix}{%
+\subsection{Additional Analyses}\label{results-alignment-2-appendix}}
+
+\hypertarget{ranking}{%
+\subsubsection{Ranking}\label{ranking}}
+
+A mixed factorial ANOVA was conducted to investigate the effects of alignment
+and verbally-instructed NPV reliability on participants' rankings of the
+target project. As shown in Figure~\ref{fig:plot-alignment-2-ranking}, the
+alignment \(\times\) reliability level \(\times\) NPV interaction was
+significant,
+\(F(6.62, 370.54) = 2.70\), \(p = .011\), \(\hat{\eta}^2_p = .046\). This
+effect seems to be driven by the differences between the no NPV condition and
+the conditions with NPV across the two alignment conditions. Specifically, in
+the low alignment condition, the linear NPV trend was significantly lower in the
+no NPV condition than both the low reliability condition,
+\(\Delta M = -6.56\), 95\% CI \([-10.26, -2.85]\), \(t(112) = -3.50\), \(p = .001\), and the high
+reliability condition, \(\Delta M = -7.38\), 95\% CI \([-10.83, -3.93]\), \(t(112) = -4.24\), \(p < .001\).
+However, in the high alignment condition, the linear NPV trend was only
+significantly lower in the no NPV condition than the high reliability condition,
+\(\Delta M = -8.37\), 95\% CI \([-11.85, -4.88]\), \(t(112) = -4.76\), \(p < .001\), and not the low
+reliability condition, \(\Delta M = -1.71\), 95\% CI \([-5.54, 2.13]\), \(t(112) = -0.88\), \(p = .380\).
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/plot-alignment-2-ranking-1} \caption{Mean ranking.}\label{fig:plot-alignment-2-ranking}
+\end{figure}
+
+\hypertarget{confidence}{%
+\subsubsection{Confidence}\label{confidence}}
+
+A mixed factorial ANOVA was conducted to investigate the effects of alignment
+and verbally-instructed NPV reliability on participants' confidence rating of
+their decisions. As shown in Figure~\ref{fig:plot-alignment-2-confidence}, the
+alignment \(\times\) reliability level \(\times\) NPV interaction was not
+significant,
+\(F(7.47, 418.08) = 1.26\), \(p = .267\), \(\hat{\eta}^2_p = .022\).
+Contrary to the allocation and ranking data, in
+the low alignment condition, there were no significant differences in the linear
+NPV trend between the no NPV condition and low reliability condition,
+\(\Delta M = 10.73\), 95\% CI \([-30.15, 51.61]\), \(t(112) = 0.52\), \(p = .604\), nor the high
+reliability condition, \(\Delta M = 13.05\), 95\% CI \([-24.97, 51.07]\), \(t(112) = 0.68\), \(p = .498\).
+However, as above, in the high alignment condition, the linear NPV trend was
+significantly lower in the no NPV condition than the high reliability condition,
+\(\Delta M = 65.14\), 95\% CI \([26.72, 103.57]\), \(t(112) = 3.36\), \(p = .001\), and not the low
+reliability condition, \(\Delta M = 31.88\), 95\% CI \([-10.38, 74.14]\), \(t(112) = 1.49\), \(p = .138\).
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/plot-alignment-2-confidence-1} \caption{Mean confidence.}\label{fig:plot-alignment-2-confidence}
+\end{figure}
+
+\hypertarget{forecast-mean}{%
+\subsubsection{Forecast Mean}\label{forecast-mean}}
+
+A mixed factorial ANOVA was conducted to investigate the effects of alignment
+and verbally-instructed NPV reliability on participants' forecast means. As seen
+in Figure~\ref{fig:plot-alignment-2-forecast-mean}, the alignment \(\times\)
+reliability level \(\times\) NPV interaction was not significant,
+\(F(5.26, 142.10) = 1.89\), \(p = .095\), \(\hat{\eta}^2_p = .066\).
+However, the alignment \(\times\) NPV interaction was significant,
+\(F(2.63, 142.10) = 2.89\), \(p = .044\), \(\hat{\eta}^2_p = .051\); as well as the
+reliability level \(\times\) NPV interaction,
+\(F(5.26, 142.10) = 7.91\), \(p < .001\), \(\hat{\eta}^2_p = .227\). The simple
+effects appear to be as above. Specifically, in the low alignment condition, the
+linear NPV trend was significantly lower in the no NPV condition than both the
+low reliability condition,
+\(\Delta M = 0.19\), 95\% CI \([0.09, 0.30]\), \(t(54) = 3.63\), \(p = .001\), and the high
+reliability condition,
+\(\Delta M = 0.16\), 95\% CI \([0.04, 0.28]\), \(t(54) = 2.75\), \(p = .008\). However, in the
+high alignment condition, the linear NPV trend was only significantly lower in
+the no NPV condition than the high reliability condition,
+\(\Delta M = 0.22\), 95\% CI \([0.11, 0.32]\), \(t(54) = 4.04\), \(p < .001\), and not the low
+reliability condition,
+\(\Delta M = 0.08\), 95\% CI \([-0.04, 0.21]\), \(t(54) = 1.30\), \(p = .198\).
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/plot-alignment-2-forecast-mean-1} \caption{Mean forecasts.}\label{fig:plot-alignment-2-forecast-mean}
+\end{figure}
+
+\hypertarget{forecast-sd-alignment-2}{%
+\subsubsection{Forecast SD}\label{forecast-sd-alignment-2}}
+
+A mixed factorial ANOVA was conducted to investigate the effects of alignment
+and verbally-instructed NPV reliability on participants' forecast SDs. As seen
+in Figure~\ref{fig:plot-alignment-2-forecast-sd}, the alignment \(\times\)
+reliability level \(\times\) NPV interaction was significant,
+\(F(6.87, 185.42) = 2.91\), \(p = .007\), \(\hat{\eta}^2_p = .097\).
+However, none of the linear NPV trends were significantly different from each
+other as above. Of relevance, the low alignment condition on average had higher
+SDs than those in the high alignment condition,
+\(F(1, 54) = 5.77\), \(p = .020\), \(\hat{\eta}^2_p = .097\).
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/plot-alignment-2-forecast-sd-1} \caption{Mean forecast SD.}\label{fig:plot-alignment-2-forecast-sd}
+\end{figure}
+
+\hypertarget{alignment-3-appendix}{%
+\section{Experiment 2}\label{alignment-3-appendix}}
+
+\hypertarget{instructions-materials-alignment-3-appendix}{%
+\subsection{Instructions}\label{instructions-materials-alignment-3-appendix}}
+
+Figure~\ref{fig:instructions-materials-alignment-3} shows the instructions.
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/instructions-materials-alignment-3-1} \caption{Experiment 2 instructions.}\label{fig:instructions-materials-alignment-3}
+\end{figure}
+
+\hypertarget{npv-test-materials-alignment-3}{%
+\subsection{NPV Test}\label{npv-test-materials-alignment-3}}
+
+Participants were given more extensive information about NPV than in the
+previous experiment and were tested on their ability to calculate simple
+averages from given numerical ranges, as shown in
+Figures~\ref{fig:npv-test-1-materials-alignment-3}
+and~\ref{fig:npv-test-2-materials-alignment-3}.
+
+
+
+\begin{figure}
+\includegraphics[width=0.9\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/npv-test-1-materials-alignment-3-1} \caption{Experiment 2 NPV test.}\label{fig:npv-test-1-materials-alignment-3}
+\end{figure}
+
+
+
+\begin{figure}
+\includegraphics[width=0.6\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/npv-test-2-materials-alignment-3-1} \caption{Experiment 2 NPV test answers.}\label{fig:npv-test-2-materials-alignment-3}
+\end{figure}
+
+\hypertarget{npv-knowledge-materials-alignment-3}{%
+\subsection{NPV Knowledge Ratings}\label{npv-knowledge-materials-alignment-3}}
+
+A similar design to Long et al. (\protect\hyperlink{ref-long2018}{2018} Study~1) was used to test whether this sample may
+be overconfident in their understanding on NPV. Therefore, participants were
+asked to rate their knowledge of NPV in various points in the study.
+Figure~\ref{fig:npv-knowledge-materials-alignment-3} shows an example of one
+such display.
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/npv-knowledge-materials-alignment-3-1} \caption{Experiment 2 NPV knowledge rating task.}\label{fig:npv-knowledge-materials-alignment-3}
+\end{figure}
+
+\newpage
+\newpage
+
+\hypertarget{variance-lecture-materials-alignment-3}{%
+\subsection{Variance Lecture}\label{variance-lecture-materials-alignment-3}}
+
+See below the slides for the variance lecture.
+
+\begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Users/shirdekel/Library/Application Support/renv/cache/v5/R-4.0/x86_64-apple-darwin17.0/alignment3/1.0/b278410953893fa36e2151055fbbe2dc/alignment3/materials/variance_lecture_split//_00000000000001.pdf}}} \caption{Variance lecture slide 1.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Users/shirdekel/Library/Application Support/renv/cache/v5/R-4.0/x86_64-apple-darwin17.0/alignment3/1.0/b278410953893fa36e2151055fbbe2dc/alignment3/materials/variance_lecture_split//_00000000000002.pdf}}} \caption{Variance lecture slide 2.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Users/shirdekel/Library/Application Support/renv/cache/v5/R-4.0/x86_64-apple-darwin17.0/alignment3/1.0/b278410953893fa36e2151055fbbe2dc/alignment3/materials/variance_lecture_split//_00000000000003.pdf}}} \caption{Variance lecture slide 3.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Users/shirdekel/Library/Application Support/renv/cache/v5/R-4.0/x86_64-apple-darwin17.0/alignment3/1.0/b278410953893fa36e2151055fbbe2dc/alignment3/materials/variance_lecture_split//_00000000000004.pdf}}} \caption{Variance lecture slide 4.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Users/shirdekel/Library/Application Support/renv/cache/v5/R-4.0/x86_64-apple-darwin17.0/alignment3/1.0/b278410953893fa36e2151055fbbe2dc/alignment3/materials/variance_lecture_split//_00000000000005.pdf}}} \caption{Variance lecture slide 5.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Users/shirdekel/Library/Application Support/renv/cache/v5/R-4.0/x86_64-apple-darwin17.0/alignment3/1.0/b278410953893fa36e2151055fbbe2dc/alignment3/materials/variance_lecture_split//_00000000000006.pdf}}} \caption{Variance lecture slide 6.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Users/shirdekel/Library/Application Support/renv/cache/v5/R-4.0/x86_64-apple-darwin17.0/alignment3/1.0/b278410953893fa36e2151055fbbe2dc/alignment3/materials/variance_lecture_split//_00000000000007.pdf}}} \caption{Variance lecture slide 7.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Users/shirdekel/Library/Application Support/renv/cache/v5/R-4.0/x86_64-apple-darwin17.0/alignment3/1.0/b278410953893fa36e2151055fbbe2dc/alignment3/materials/variance_lecture_split//_00000000000008.pdf}}} \caption{Variance lecture slide 8.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Users/shirdekel/Library/Application Support/renv/cache/v5/R-4.0/x86_64-apple-darwin17.0/alignment3/1.0/b278410953893fa36e2151055fbbe2dc/alignment3/materials/variance_lecture_split//_00000000000009.pdf}}} \caption{Variance lecture slide 9.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Users/shirdekel/Library/Application Support/renv/cache/v5/R-4.0/x86_64-apple-darwin17.0/alignment3/1.0/b278410953893fa36e2151055fbbe2dc/alignment3/materials/variance_lecture_split//_00000000000010.pdf}}} \caption{Variance lecture slide 10.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Users/shirdekel/Library/Application Support/renv/cache/v5/R-4.0/x86_64-apple-darwin17.0/alignment3/1.0/b278410953893fa36e2151055fbbe2dc/alignment3/materials/variance_lecture_split//_00000000000011.pdf}}} \caption{Variance lecture slide 11.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Users/shirdekel/Library/Application Support/renv/cache/v5/R-4.0/x86_64-apple-darwin17.0/alignment3/1.0/b278410953893fa36e2151055fbbe2dc/alignment3/materials/variance_lecture_split//_00000000000012.pdf}}} \caption{Variance lecture slide 12.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Users/shirdekel/Library/Application Support/renv/cache/v5/R-4.0/x86_64-apple-darwin17.0/alignment3/1.0/b278410953893fa36e2151055fbbe2dc/alignment3/materials/variance_lecture_split//_00000000000013.pdf}}} \caption{Variance lecture slide 13.} \end{figure}
+ \begin{figure} \makebox[\linewidth][c]{\fbox{\includegraphics[width=1.2\linewidth]{/Users/shirdekel/Library/Application Support/renv/cache/v5/R-4.0/x86_64-apple-darwin17.0/alignment3/1.0/b278410953893fa36e2151055fbbe2dc/alignment3/materials/variance_lecture_split//_00000000000014.pdf}}} \caption{Variance lecture slide 14.} \end{figure}
+
+\hypertarget{results-alignment-3-appendix}{%
+\subsection{Additional Analyses}\label{results-alignment-3-appendix}}
+
+\hypertarget{ranking-1}{%
+\subsubsection{Ranking}\label{ranking-1}}
+
+A mixed factorial ANOVA was conducted to investigate the effects of NPV,
+alignment, and numerical NPV reliability on participants' project rankings.
+Figure~\ref{fig:plot-alignment-3-ranking} shows these data. The alignment
+\(\times\) reliability level \(\times\) NPV interaction was not
+significant,
+\(F(3.00, 159.10) = 2.44\), \(p = .066\), \(\hat{\eta}^2_p = .044\).
+However, the alignment \(\times\) NPV interaction was significant,
+\(F(1.99, 105.72) = 16.97\), \(p < .001\), \(\hat{\eta}^2_p = .243\); as well as the reliability
+amount \(\times\) NPV interaction,
+\(F(3.28, 173.93) = 2.67\), \(p = .044\), \(\hat{\eta}^2_p = .048\). As in the
+allocation data, the linear NPV trend did not differ between reliability level
+condition in neither the low alignment condition,
+\(\Delta M = 0.43\), 95\% CI \([-0.77, 1.63]\), \(t(53) = 0.71\), \(p = .480\), nor the high alignment
+condition, \(\Delta M = 0.46\), 95\% CI \([-0.92, 1.84]\), \(t(53) = 0.67\), \(p = .504\). However,
+averaging over reliability level, the linear NPV trend was higher in the low
+alignment condition than in the high alignment condition,
+\(\Delta M = -4.54\), 95\% CI \([-6.39, -2.68]\), \(t(53) = -4.91\), \(p < .001\).
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/plot-alignment-3-ranking-1} \caption{Mean ranking.}\label{fig:plot-alignment-3-ranking}
+\end{figure}
+
+\hypertarget{confidence-1}{%
+\subsubsection{Confidence}\label{confidence-1}}
+
+A mixed factorial ANOVA was conducted to investigate the effects of NPV,
+alignment, and numerical NPV reliability on participants' confidence ratings.
+Figure~\ref{fig:plot-alignment-3-confidence} shows these data. Only the main
+effect of NPV was significant,
+\(F(2.62, 139.08) = 2.97\), \(p = .041\), \(\hat{\eta}^2_p = .053\).
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/plot-alignment-3-confidence-1} \caption{Mean confidence.}\label{fig:plot-alignment-3-confidence}
+\end{figure}
+
+\hypertarget{variance-lecture-1}{%
+\subsubsection{Variance Lecture}\label{variance-lecture-1}}
+
+The allocation and ranking data show that participants were affected by the
+similarity of options, but were not affected by variance information. After the
+main task of this experiment, participants were shown a short lecture about the
+importance of variance information when making allocation decisions. They were
+then presented with half of their previous allocations and gave them an
+opportunity to amend their allocations. It was hypothesised that participants
+will be more sensitive to variance after the educational intervention.
+
+A mixed factorial ANOVA was conducted to investigate the effects of phase on
+participants' project allocations. As shown in
+Figure~\ref{fig:plot-alignment-3-variance-lecture}, the four-way interaction
+was not significant,
+\(F(2.56, 133.09) = 1.74\), \(p = .169\), \(\hat{\eta}^2_p = .032\).
+Further, the NPV \(\times\) phase \(\times\) reliability level interactions were not
+significant for either the low alignment condition,
+\(\Delta M = 4.43\), 95\% CI \([-23.71, 32.58]\), \(t(52) = 0.32\), \(p = .753\); or the
+high alignment conditions,
+\(\Delta M = -11.92\), 95\% CI \([-43.39, 19.55]\), \(t(52) = -0.76\), \(p = .451\). In the
+low alignment condition, the linear NPV trend (averaged over reliability level)
+was significantly weaker after the lecture, compared with the linear NPV trend
+before the lecture, \(\Delta M = -12.85\), 95\% CI \([-24.08, -1.62]\), \(t(52) = -2.30\), \(p = .026\).
+However, this comparison was not significant in the high alignment condition,
+\(\Delta M = -6.37\), 95\% CI \([-18.93, 6.18]\), \(t(52) = -1.02\), \(p = .313\). These results
+suggest that participants did not become better informed by NPV numerical
+reliability after the variance lecture. There was, however, some reduction in
+reliance on NPV overall when projects were dissimilar.
+
+
+
+\begin{figure}[!htbp]
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/plot-alignment-3-variance-lecture-1} \caption{Mean allocation by NPV, reliability level, alignment, and phase.}\label{fig:plot-alignment-3-variance-lecture}
+\end{figure}
+
+\hypertarget{npv-knowledge}{%
+\subsubsection{NPV Knowledge}\label{npv-knowledge}}
+
+A repeated-measures ANOVA was conducted to investigate the effects of experiment
+phase condition on participants' NPV knowledge rating.
+Figure~\ref{fig:plot-alignment-3-npv-knowledge} shows these data. The main
+effect of phase was significant, \(F(2.43, 128.59) = 7.80\), \(p < .001\), \(\hat{\eta}^2_p = .128\).
+The post-explanation rating was significantly higher than the pre-explanation
+rating,
+\(\Delta M = -0.59\), \(95\%\ \mathrm{CI}_\mathrm{\scriptsize Tukey(5)}\) \([-0.92, -0.26]\), \(t(53) = -5.07\), \(p_\mathrm{\scriptsize Tukey(5)} < .001\). However, there were no significant
+differences in rating between any of the later phases.
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/plot-alignment-3-npv-knowledge-1} \caption{Mean NPV knowledge rating.}\label{fig:plot-alignment-3-npv-knowledge}
+\end{figure}
+
+\hypertarget{experiment-3}{%
+\section{Experiment~3}\label{experiment-3}}
+
+\hypertarget{alignment-8-appendix}{%
+\subsection{Hypothesised Effects}\label{alignment-8-appendix}}
+
+Figure~\ref{fig:plot-simulation-alignment-8} shows the simulated hypothesised
+effects for Experiment~3. These effects were constructed as a composite of
+Experiment~1 data (without the no NPV condition) for the verbal reliability type
+condition, and data from a pilot study (Dekel, \protect\hyperlink{ref-dekel2021b}{2021}, Appendix B.8) for the
+numerical reliability type condition. Variance was removed to see the effects
+clearer.
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/plot-simulation-alignment-8-1} \caption{Experiment~3 predicted data.}\label{fig:plot-simulation-alignment-8}
+\end{figure}
+
+\hypertarget{power-analysis-alignment-8}{%
+\subsection{Power Analysis}\label{power-analysis-alignment-8}}
+
+A power analysis was conducted through simulation of the effects hypothesised in
+Experiment~3 (and the simple effects implied by them). The simulated data used
+the same regression coefficients as Experiment~2 for the explicit condition, no
+effects for the implicit condition (as shown in
+Figure~\ref{fig:plot-simulation-alignment-8}), and the intercept and residual
+variance of Experiment~2. The null effects were analysed using the two one-sided
+tests (TOST) procedure, or \emph{equivalence} testing (Lakens et al., \protect\hyperlink{ref-lakens2018}{2018}), and setting the
+smallest effect size of interest to the smallest difference that leads to a
+significant equivalence between low and high implicit reliability for low
+alignment in a pilot study (Dekel, \protect\hyperlink{ref-dekel2021b}{2021}, Appendix B.8).
+Figure~\ref{fig:power-curve-alignment-8} shows the resulting power curve. The
+analysis suggests a total sample size of 448
+(112 \(\cdot\) 4).
+
+\newpage
+
+\begin{landscape}
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/power-curve-alignment-8-1} \caption{Alignment Experiment~3 power curve. Labels indicate lowest sample size above 80\% power.}\label{fig:power-curve-alignment-8}
+\end{figure}
+
+\end{landscape}
+
+\newpage
+
+\hypertarget{instructions-materials-alignment-8-appendix}{%
+\subsection{Instructions}\label{instructions-materials-alignment-8-appendix}}
+
+Figures~\ref{fig:instructions-reliability-explicit-materials-alignment-8}
+and~\ref{fig:instructions-reliability-implicit-materials-alignment-8} show the
+instructions for the verbal and numerical reliability conditions, respectively.
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/instructions-reliability-explicit-materials-alignment-8-1} \caption{Experiment~3 verbal reliability instructions.}\label{fig:instructions-reliability-explicit-materials-alignment-8}
+\end{figure}
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/instructions-reliability-implicit-materials-alignment-8-1} \caption{Experiment~3 numerical reliability instructions.}\label{fig:instructions-reliability-implicit-materials-alignment-8}
+\end{figure}
+
+\hypertarget{interstitial-materials-alignment-8}{%
+\subsection{Interstitial Display}\label{interstitial-materials-alignment-8}}
+
+Figure~\ref{fig:interstitial-materials-alignment-8} shows an example of an
+interstitial display.
+
+
+
+\begin{figure}
+\includegraphics[width=1\linewidth]{project-similarity-bias-and-variance-neglect_files/figure-latex/interstitial-materials-alignment-8-1} \caption{An example of an interstitial display in Experiment~3.}\label{fig:interstitial-materials-alignment-8}
+\end{figure}
+
+\hypertarget{results-alignment-8-allocation}{%
+\subsection{Additional Analyses}\label{results-alignment-8-allocation}}
+
+The three-way interaction (reliability level \(\times\) NPV \(\times\) reliability
+type) in the high alignment condition was significant,
+\(\Delta M = 35.43\), 95\% CI \([20.74, 50.12]\), \(t(444) = 4.74\), \(p < .001\). The NPV \(\times\)
+reliability type (averaging over reliability level) in the low alignment
+condition was significant,
+\(\Delta M = 11.48\), 95\% CI \([0.19, 22.77]\), \(t(444) = 2.00\), \(p = .046\). The association
+between allocation and NPV for those in the explicit low reliability
+condition was significantly stronger for those in the low alignment condition,
+than for those in the high alignment condition,
+\(\Delta M = 35.68\), 95\% CI \([22.27, 49.09]\), \(t(444) = 5.23\), \(p < .001\).
+The linear NPV trend for those in the low alignment condition was
+significantly stronger for those in the explicit reliability condition, than for
+those in the implicit reliability condition (averaging over reliability level),
+\(\Delta M = 11.48\), 95\% CI \([0.19, 22.77]\), \(t(444) = 2.00\), \(p = .046\). The linear
+NPV trend for those in the implicit reliability condition was not
+significantly ``equivalent'' between those in the low and high reliability
+conditions for both those in the low alignment
+\(\Delta M = 1.64\), 95\% CI \([-8.74, 12.03]\), \(t(444) = 0.31\), \(p = .620\)
+and high alignment conditions
+\(\Delta M = -1.21\), 95\% CI \([-11.59, 9.18]\), \(t(444) = 0.22\), \(p = .589\).
+However, this is likely to be because the ``lowest effect size of interest''
+estimate originated from an analysis used before data collection that was
+different to the one that one used after data collection. Specifically, a
+univariate linear model was originally used (treating NPV as a continuous
+predictor), whereas the data were ultimately analysed using a multivariate
+linear model (treating NPV as a repeated measures factor). In the numerical
+reliability condition, a pilot experiment (Dekel, \protect\hyperlink{ref-dekel2021b}{2021}, Appendix B.8)
+suggested that the linear NPV trend would be equivalent between those in the low
+and high alignment conditions, averaged over reliability level. However, the
+test of equivalence was not significant,
+\(\Delta M = 15.19\), 95\% CI \([3.90, 26.48]\), \(t(444) = 2.64\), \(p = .996\).
 
 
 \end{document}
